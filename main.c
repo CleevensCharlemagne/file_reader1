@@ -29,6 +29,7 @@ int main()
 		// If it is EOF stop reading.
 	} while (ch != EOF);
 
-
+	// Closing the file
+	fclose(ptr);
 	return 0;
 }
