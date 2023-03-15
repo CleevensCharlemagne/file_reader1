@@ -13,6 +13,12 @@ int main()
 	// Opening file in reading mode
 	ptr = fopen("test.txt", "r");
 
+	if (NULL == ptr) {
+		printf("file can't be opened \n");
+	}
+
+	printf("content of this file are \n");
+
 
 	return 0;
 }
